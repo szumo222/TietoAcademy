@@ -1,0 +1,73 @@
+{
+  "books": [
+    {
+      "title": "The Hunger Games",
+      "authors": "Suzanne Collins",
+      "publisher": "Media Rodzina",
+      "isbn": "9788372783578",
+      "publishDate": "2009",
+      "publishPlace": "Poznań",
+      "numberOfPages": "352",
+      "subject": "Fantasy",
+      "coverUrl": "https://ecsmedia.pl/c/igrzyska-smierci-tom-1-w-iext35360614.jpg",
+      "id": 1
+    },
+    {
+      "title": "Catching Fire",
+      "authors": "Suzanne Collins",
+      "publisher": "Media Rodzina",
+      "isbn": "9788372783950",
+      "publishDate": "2009",
+      "publishPlace": "Poznań",
+      "numberOfPages": "359",
+      "subject": "Fantasy",
+      "id": 2
+    },
+    {
+      "title": "Mockingjay",
+      "authors": "Suzanne Collins",
+      "publisher": "Media Rodzina",
+      "isbn": "9788372784919",
+      "publishDate": "2010",
+      "publishPlace": "Poznań",
+      "numberOfPages": "373",
+      "subject": "Fantasy",
+      "coverUrl": "https://upload.wikimedia.org/wikipedia/en/c/cc/Mockingjay.JPG",
+      "id": 3
+    },
+    {
+      "title": "The Hunger Games",
+      "authors": "Suzanne Collins",
+      "publisher": "Media Rodzina",
+      "isbn": "9788372783578",
+      "publishDate": "2009",
+      "publishPlace": "Poznań",
+      "numberOfPages": "352",
+      "subject": "Fantasy",
+      "coverUrl": "https://ecsmedia.pl/c/igrzyska-smierci-tom-1-w-iext35360614.jpg",
+      "id": 4
+    },
+    {
+      "title": "Catching Fire",
+      "authors": "Suzanne Collins",
+      "publisher": "Media Rodzina",
+      "isbn": "9788372783950",
+      "publishDate": "2009",
+      "publishPlace": "Poznań",
+      "numberOfPages": "359",
+      "subject": "Fantasy",
+      "id": 5
+    },
+    {
+      "title": "Catching Fire",
+      "authors": "Suzanne Collins",
+      "publisher": "Media Rodzina",
+      "isbn": "9788372783950",
+      "publishDate": "2009",
+      "publishPlace": "Poznań",
+      "numberOfPages": "359",
+      "subject": "Fantasy",
+      "id": 6
+    }
+  ]
+}
