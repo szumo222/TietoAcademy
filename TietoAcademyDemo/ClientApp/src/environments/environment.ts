@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  booksApiUrl: ''
+  booksApiUrl: 'https://localhost:44373/api/books'
 };
 
 /*

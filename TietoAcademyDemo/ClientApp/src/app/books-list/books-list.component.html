@@ -1,3 +1,26 @@
-<p>
-  books-list works!
-</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col"></div>
+
+    <div class="col-9 text-center mt-3">
+      <h1>List of my favourite books</h1>
+      <ng-container *ngIf="(books$ | async) as books; else noBooks">
+        <div class="row mb-4 mt-4">
+          <div class="card-group" *ngFor="let book of books">
+            <app-book-cover [book]="book"></app-book-cover>
+          </div>
+        </div>
+      </ng-container>
+
+      <ng-template #noBooks>
+        <div class="help is-warning">No Bookmarks Yet</div>
+      </ng-template>
+    </div>
+
+    <div class="col mt-2">
+        <a routerLink="/books-list/add-book">
+          <button type="button" class="btn btn-primary btn-block btn-sm">Add book</button>
+        </a>
+    </div>
+  </div>
+</div>

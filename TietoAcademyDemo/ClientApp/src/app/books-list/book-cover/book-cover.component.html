@@ -1,0 +1,15 @@
+<div class="card" style="max-width: 18rem;">
+  <img class="card-img-top" [src]="book.coverUrl" alt="Card image cap" *ngIf="book.coverUrl">
+  <img class="card-img-top" src="https://baconmockup.com/200/400" alt="Card image cap"
+       *ngIf="!book.coverUrl">
+  <div class="card-body">
+    <h5 class="card-title">{{book.title}}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">{{book.authors}}</h6>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">ISBN: {{book.isbn}}</li>
+      <li class="list-group-item">Publisher: {{book.publisher}}</li>
+      <li class="list-group-item">Publish date: {{book.publishDate}}</li>
+    </ul>
+    <button class="btn btn-danger btn-sm btn-block mt-3" [disabled]="!has()" (click)="removeBook()">Remove book</button>
+  </div>
+</div>
