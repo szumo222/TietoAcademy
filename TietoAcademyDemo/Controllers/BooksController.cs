@@ -48,10 +48,10 @@ namespace TietoAcademyDemo.Controllers
         }
 
         // /books
-        [HttpDelete]
-        public void RemoveBook([FromBody] Book book)
+        [HttpDelete("{isbn}")]
+        public void RemoveBook(string isbn)
         {
-           // _booksService.RemoveBook(book);
+             _booksService.RemoveBook(isbn);
         }
 
         [HttpPost]

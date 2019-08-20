@@ -38,7 +38,10 @@ namespace TietoAcademyDemo.Infrastructure
 
         public void RemoveBook(string isbn)
         {
-            throw new System.NotImplementedException();
+            //throw new System.NotImplementedException();
+            Book book = _context.Books.SingleOrDefault(x => x.isbn == isbn);
+            _context.Books.Remove(book);
+            _context.SaveChanges();
         }
 
         public Book RenameBook(string isbn, string newName)
