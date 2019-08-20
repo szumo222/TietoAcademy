@@ -14,5 +14,6 @@ namespace TietoAcademyDemo.Domain
         public int numberOfPages { get; set; }
         public string subject { get; set; }
         public string coverUrl { get; set; }
+        public string publisher { get; set; }
     }
 }
